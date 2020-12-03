@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#A7A6BA"
+    android:layout_height="match_parent"
+    tools:context=".About">
+
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="12dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="40dp"
+        android:text="Why this app?"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        android:layout_marginTop="20dp"
+        android:padding="2dp"
+        android:text="In this pandemic ,  we should keep on track about the pace and the distance of this deadlt virus,
+in light of which i made this application so that every one must know the correct figures released by a reliable API"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="start" />'
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="12dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="40dp"
+        android:text="Updates"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        android:padding="2dp"
+        android:text="1)The tracker for the people under survelliance by Arogya Setu App  on a GPS map.\n 2)The alerting system with a notification / text message under development norms. \n 3) Connecting this tracker with our app 'BLOOD BANK' to ensure greater reach ability  \n 4)Reminders for checking oxygen saturation , temperature at regular interval of time \n 5)Alert when the number of cases goes above a certain limit using notifications. "
+         android:textAlignment="viewStart"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"
+        android:layout_marginTop="50dp"
+
+        android:textStyle="bold"
+        android:gravity="start" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:textStyle="bold"
+        android:text="VinayGautam"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="25dp"
+        android:gravity="center_horizontal" />
+
+</LinearLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:padding="8dp"
+        android:text="STATE/UT"
+        />
+
+    <TextView
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:textAllCaps="true"
+    android:textStyle="bold"
+    android:textColor="@color/drak_red"
+    android:padding="8dp"
+    android:text="CNF"
+    />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textColor="@color/dark_blue"
+        android:padding="8dp"
+        android:text="ACTV"
+        />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textColor="@color/dark_green"
+        android:padding="8dp"
+        android:text="RCVD"
+        />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textColor="@color/dark_yellow"
+        android:padding="8dp"
+        android:text="DCSD"
+        />
+
+</LinearLayout>
